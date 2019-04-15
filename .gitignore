@@ -9,3 +9,5 @@ WiredTiger
 WiredTiger*
 
 node_modules/*
+.env
+.next

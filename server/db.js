@@ -11,7 +11,7 @@ db.once('open', function (callback) {
 
 var unicodeSchema = mongoose.Schema({
   type: String,
-  unicode: String
+  unicode: mongoose.Mixed
 })
 
 exports.Unicode = mongoose.model('Unicode', unicodeSchema)
