@@ -1,3 +1,11 @@
 tags
 
 server/*.wt
+server/journal/*
+server/diagnostic.data/*
+server/storage.bson
+server/mongod.lock
+WiredTiger
+WiredTiger*
+
+node_modules/*
